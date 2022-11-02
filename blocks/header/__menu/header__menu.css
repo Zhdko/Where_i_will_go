@@ -1,6 +1,4 @@
 .header__menu{
   display: flex;
   gap: 84px;
-  font-family: "Inter", Arial, sans-serif;
-  font-weight: 700;
 }

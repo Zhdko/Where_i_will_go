@@ -1,0 +1,6 @@
+.intro {
+  display: flex;
+  justify-content: space-between;
+  max-width: 2370px;
+  align-items: center;
+}

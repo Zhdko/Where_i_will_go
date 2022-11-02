@@ -1,0 +1,9 @@
+.subtitle{
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 700;
+  font-size:27px;
+  line-height: 1;
+  color: #FECDA7;
+  text-transform: uppercase;
+}

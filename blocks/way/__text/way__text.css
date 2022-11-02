@@ -1,0 +1,7 @@
+.way__text{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 135px 160px 196px;
+  box-sizing: border-box;
+}

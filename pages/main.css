@@ -12,3 +12,22 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__container/header__container.css);
+
+/* intro */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__container/intro__container.css);
+@import url(../blocks/intro/__image/intro__image.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/subtitle/subtitle.css);
+
+/* Direction */
+@import url(../blocks/direction/direction.css);
+@import url(../blocks/ways/ways.css);
+@import url(../blocks/way/way.css);
+@import url(../blocks/way/__image/way__image.css);
+@import url(../blocks/way/__text/way__text.css);
+@import url(../blocks/paragraph/paragraph.css);
+@import url(../blocks/way/__paragraph/way__paragraph.css);
+
+

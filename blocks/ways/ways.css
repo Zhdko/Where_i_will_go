@@ -1,0 +1,4 @@
+.ways{
+  display: flex;
+  flex-direction: column;
+}
