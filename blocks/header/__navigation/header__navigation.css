@@ -9,6 +9,7 @@
     width: 100%;
     transition: all 0.2s ease;
     left:-100%;
+    z-index: 1;
   }
   .header__navigation.open-menu{
       left:0;
