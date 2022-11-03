@@ -3,7 +3,19 @@
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 700;
   font-size:27px;
-  line-height: 1;
+  line-height: 1.3;
   color: #FECDA7;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 1900px) {
+  .subtitle{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .subtitle{
+    font-size: 12px;
+  }
 }

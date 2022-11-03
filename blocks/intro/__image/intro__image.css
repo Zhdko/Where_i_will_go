@@ -1,5 +1,9 @@
 .intro__image{
-  width: 800px;
-  height: 799px;
+  width: 33.75%;
   object-fit: cover;
+  padding-top: 33.75%;
+  background-image: url(../../../images/intro-image.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

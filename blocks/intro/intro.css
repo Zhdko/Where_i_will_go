@@ -1,6 +1,11 @@
 .intro {
   display: flex;
   justify-content: space-between;
-  max-width: 2370px;
+  width: 82.3%;
   align-items: center;
+}
+
+@media screen and (max-width: 1900px) {
+  .intro {
+  }
 }

@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+  .menu-burger {
+    position: relative;
+      width: 40px;
+      height: 35px;
+      display: block;
+     }
+  .menu-burger span, .menu-burger:after, .menu-burger:before{
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    background: #000;
+    margin: 0 auto;
+  }
+  .menu-burger span{
+    top: 16px;
+  }
+  .menu-burger:after, .menu-burger:before{
+    content: '';
+  }
+  .menu-burger:after{
+    bottom: 5px;
+  }
+  .menu-burger:before{
+    top: 5px;
+  }
+  .menu-burger.open-menu span {
+    opacity:0;
+      transition: 0.5s;
+  }
+  .menu-burger.open-menu:before {
+    transform: rotate(38deg);
+      top: 16px;
+      transition: 0.4s;
+  }
+  .menu-burger.open-menu:after {
+    transform: rotate(-38deg);
+      bottom: 16px;
+      transition: 0.4s;
+  }
+  .fixed-pade {
+      overflow: hidden;
+  }
+}

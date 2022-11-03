@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px){
+  .header__navigation {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: rgb(255, 255, 255);
+    box-shadow: #ccc;
+    width: 100%;
+    transition: all 0.2s ease;
+    left:-100%;
+  }
+  .header__navigation.open-menu{
+      left:0;
+  }
+}
