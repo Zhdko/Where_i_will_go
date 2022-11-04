@@ -1,5 +1,9 @@
 .way__image {
   width: 100%;
   object-fit: cover;
-  height: 1200px;
+  height: calc(50vw * 0.833);
+  max-height: 1200px;
 }
+
+
+

@@ -5,3 +5,21 @@
   font-size: 30px;
   line-height: 1.5;
 }
+
+@media screen and (max-width:2500px) {
+  .paragraph {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:1700px) {
+  .paragraph {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:1280px) {
+  .paragraph {
+    font-size: 14px;
+  }
+}
