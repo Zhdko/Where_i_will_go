@@ -1,0 +1,21 @@
+.people__container {
+  padding: 310px 155px 297px;
+}
+
+@media screen and (max-width: 1900px) {
+  .people__container {
+    padding: 180px 100px 150px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .people__container {
+    padding: 125px 55px 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .people__container {
+    padding: 80px 35px 40px;
+  }
+}
