@@ -1,0 +1,24 @@
+.people__titles {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 271px;
+}
+
+@media screen and (max-width: 1900px) {
+  .people__titles {
+    margin-bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .people__titles{
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .people__titles {
+    margin-bottom: 75px;
+  }
+}
