@@ -1,4 +1,4 @@
-.footer__cover {
+.footer {
   font-family: 'Roboto', Arial, sans-serif;
   background-color: #fecda7;
   width: 100%;
@@ -9,20 +9,21 @@
 
 
 @media screen and (max-width: 1900px) {
-  .footer__cover {
+  .footer {
     height: 700px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .footer__cover {
+  .footer {
     height: 500px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .footer__cover {
+  .footer {
     height: 250px;
   }
 }
+
 

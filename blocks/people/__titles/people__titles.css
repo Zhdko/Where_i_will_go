@@ -3,11 +3,19 @@
   flex-direction: column;
   gap: 50px;
   margin-bottom: 271px;
+  max-width: 900px;
 }
 
 @media screen and (max-width: 1900px) {
   .people__titles {
     margin-bottom: 150px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .people__titles {
+    gap: 30px;
+    margin-bottom: 113px;
+    max-width: 500px;
   }
 }
 

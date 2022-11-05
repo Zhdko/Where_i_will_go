@@ -18,7 +18,6 @@
   .way:nth-child(2n) {
     flex-direction: column-reverse;
     background-color: #f2f2f2;
-    text-align: right;
   }
 }
 

@@ -2,7 +2,7 @@
   display: grid;
   gap: 126px;
   max-width: 2570px;
-  grid-template-columns: repeat(4, 1fr)
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
 }
 
 @media screen and (max-width: 1900px) {
@@ -14,12 +14,12 @@
 @media screen and (max-width: 1024px) {
   .row {
     gap: 50px;
-    grid-template-columns: repeat(2, 1fr)
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 520px) {
   .row {
-    grid-template-columns: 1fr;
+    max-width: 300px;
+    margin: 0 auto;
   }
 }

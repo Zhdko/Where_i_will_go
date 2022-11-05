@@ -1,7 +1,7 @@
 .way__text{
   display:flex;
   flex-direction: column;
-  padding: 135px 20px 160px 196px;
+  padding: 135px 0 196px 160px;
   width: calc(100%/2);
   gap: 50px;
   box-sizing: border-box;
@@ -15,7 +15,7 @@
 
 @media screen and (max-width:1500px) {
   .way__text {
-    padding: 60px 70px 83px;
+    padding: 40px 50px 60px;
     gap: 30px;
   }
 }
@@ -28,7 +28,6 @@
 
 @media screen and (max-width:1044px) {
   .way__text {
-    padding: 40px 50px 60px;
     width: calc(100% - 100%/3);
   }
 }
@@ -42,6 +41,5 @@
 @media screen and (max-width:720px) {
   .way__text {
     width: 100%;
-
   }
 }

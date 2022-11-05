@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="author" content="Alexandr_Zhdanko">
-      <link rel="stylesheet" href="./pages/main.css">
-      <title>Куда я поеду</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alexandr_Zhdanko">
+    <link rel="stylesheet" href="./pages/main.css">
+    <title>Куда я поеду</title>
+</head>
   <body class="page page__main">
     <header class="header header__container">
       <nav class="header__navigation">
@@ -57,122 +57,35 @@
           </li>
         </ul>
       </section>
-      <section class="people">
-        <div>
-        <p class="people__subtitle subtitle">Люди</p>
-        <h2 class="people__title title">Что говорят и&nbsp;говорили люди о&nbsp;путешествиях</h2>
+      <section class="people people__container">
+        <div class="people__titles">
+          <p class="people__subtitle subtitle">Люди</p>
+          <h2 class="title">Что говорят и&nbsp;говорили люди о&nbsp;путешествиях</h2>
         </div>
         <ul class="row list">
-          <li class="row__cell">
+          <li>
             <h3 class="row__title">Иван Бунин</h3>
-            <p class="row__text paragraph">Человека делают счастливым три вещи: любовь, интересная работа и возможность путешествовать.</p>
+            <p class="paragraph">Человека делают счастливым три вещи: любовь, интересная работа и возможность путешествовать.</p>
           </li>
-          <li class="row__cell">
+          <li>
             <h3 class="row__title">Альбер Камю</h3>
-            <p class="row__text paragraph">Путешествие как самая великая и серьезная наука помогает нам вновь обрести себя.</p>
+            <p class="paragraph">Путешествие как самая великая и серьезная наука помогает нам вновь обрести себя.</p>
           </li>
-          <li class="row__cell">
+          <li>
             <h3 class="row__title">Норвежская пословица</h3>
-            <p class="row__text paragraph">Лишь тот, кто странствует, открывает новые пути.</p>
+            <p class="paragraph">Лишь тот, кто странствует, открывает новые пути.</p>
           </li>
-          <li class="row__cell">
+          <li>
             <h3 class="row__title">Мария Захарова</h3>
-            <p class="row__text paragraph">В принципе зарубежная поездка – это серьезнейшее, ответственнейшее и очень рискованное предприятие.</p>
+            <p class="paragraph">В принципе зарубежная поездка – это серьезнейшее, ответственнейшее и очень рискованное предприятие.</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__cover">
         <p class="footer__text">&copy; 2020</p>
-      </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="./js/menu.js"></script>
-<head>
-  <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Alexandr_Zhdanko">
-    <link rel="stylesheet" href="./pages/main.css">
-    <title>Куда я поеду</title>
-</head>
-<body class="page page__main">
-  <header class="header header__container">
-    <nav class="header__navigation">
-      <ul class="list header__menu">
-        <li class=""><a href="#" class="link header__link">Мечты</a></li>
-        <li class=""><a href="#" class="link header__link">Ожидания</a></li>
-        <li class=""><a href="#" class="link header__link">Реальность</a></li>
-      </ul>
-    </nav>
-    <div class="menu-burger">
-      <span></span>
-    </div>
-    <a href="#" class="link header__link">Пожаловаться</a>
-  </header>
-  <main class="content content__main">
-    <section class="intro intro__container">
-      <div class="intro__text">
-        <p class="subtitle">куда я поеду</p>
-        <h1 class="title">Куда я&nbsp;поеду сразу, как можно будет куда-то поехать</h1>
-      </div>
-      <div class="intro__image"></div>
-    </section>
-    <section class="direction">
-      <ul class="ways list">
-        <li class="way">
-          <img src="./images/places-forest.jpeg" alt="Лес." class="way__image">
-          <div class="way__text">
-            <h2 class="title way__title">Поеду в лес</h2>
-            <p class="paragraph way__paragraph">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.</p>
-            <p class="paragraph way__paragraph">Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
-          </div>
-        </li>
-        <li class="way">
-          <div class="way__text">
-            <h2 class="title way__title">Поеду в горы</h2>
-            <p class="paragraph way__paragraph">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.</p>
-          </div>
-          <img src="./images/places-mountains.jpeg" alt="Горы." class="way__image">
-        </li>
-        <li class="way">
-          <img src="./images/places-black-sea.jpeg" alt="Черное море." class="way__image">
-          <div class="way__text">
-            <h2 class="title way__title">Поеду на Чёрное море</h2>
-            <p class="paragraph way__paragraph">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову.</p>
-            <p class="paragraph way__paragraph">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
-            <p class="paragraph">Уеду я.</p>
-          </div>
-        </li>
-      </ul>
-    </section>
-    <section class="people people__container">
-      <div class="people__titles">
-      <p class="people__subtitle subtitle">Люди</p>
-      <h2 class="people__title title">Что говорят и&nbsp;говорили люди о&nbsp;путешествиях</h2>
-      </div>
-      <ul class="row list">
-        <li class="row__cell">
-          <h3 class="row__title">Иван Бунин</h3>
-          <p class="row__text paragraph">Человека делают счастливым три вещи: любовь, интересная работа и возможность путешествовать.</p>
-        </li>
-        <li class="row__cell">
-          <h3 class="row__title">Альбер Камю</h3>
-          <p class="row__text paragraph">Путешествие как самая великая и серьезная наука помогает нам вновь обрести себя.</p>
-        </li>
-        <li class="row__cell">
-          <h3 class="row__title">Норвежская пословица</h3>
-          <p class="row__text paragraph">Лишь тот, кто странствует, открывает новые пути.</p>
-        </li>
-        <li class="row__cell">
-          <h3 class="row__title">Мария Захарова</h3>
-          <p class="row__text paragraph">В принципе зарубежная поездка – это серьезнейшее, ответственнейшее и очень рискованное предприятие.</p>
-        </li>
-      </ul>
-    </section>
-  </main>
-  <footer class="footer footer__cover">
-      <p class="footer__text">&copy; 2020</p>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="./js/menu.js"></script>
+  </body>
+</html>

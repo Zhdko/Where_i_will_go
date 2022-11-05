@@ -36,34 +36,13 @@
 @import url(../blocks/paragraph/paragraph.css);
 @import url(../blocks/way/__paragraph/way__paragraph.css);
 
-
-
-/* intro */
-@import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__container/intro__container.css);
-@import url(../blocks/intro/__image/intro__image.css);
-@import url(../blocks/intro/__text/intro__text.css);
-@import url(../blocks/title/title.css);
-@import url(../blocks/subtitle/subtitle.css);
-
-/* Direction */
-@import url(../blocks/direction/direction.css);
-@import url(../blocks/ways/ways.css);
-@import url(../blocks/way/way.css);
-@import url(../blocks/way/__image/way__image.css);
-@import url(../blocks/way/__text/way__text.css);
-@import url(../blocks/paragraph/paragraph.css);
-@import url(../blocks/way/__paragraph/way__paragraph.css);
-
 @import url(../blocks/people/people.css);
 @import url(../blocks/people/__container/people__container.css);
 @import url(../blocks/people/__titles/people__titles.css);
-@import url(../blocks/people/__title/people__title.css);
 
 @import url(../blocks/row/row.css);
-@import url(../blocks/row/__cell/row__cell.css);
 @import url(../blocks/row/__title/row__title.css);
 
-@import url(../blocks/footer/__cover/footer__cover.css);
+@import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__text/footer__text.css);
 
