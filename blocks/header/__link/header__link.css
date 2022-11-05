@@ -1,0 +1,12 @@
+.header__link {
+  transition: all 0.2s ease;
+}
+
+.header__link:hover {
+  color: #FECDA7;
+}
+
+.header__link:focus {
+  color: #FECDA7;
+  outline: none;
+}
