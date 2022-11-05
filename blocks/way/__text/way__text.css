@@ -2,7 +2,9 @@
   display:flex;
   flex-direction: column;
   padding: 135px 20px 160px 196px;
-  max-width: 820px;
+  width: calc(100%/2);
+  gap: 50px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width:2500px) {
@@ -14,12 +16,32 @@
 @media screen and (max-width:1500px) {
   .way__text {
     padding: 60px 70px 83px;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width:1280px) {
+  .way__text {
+    gap: 19px;
   }
 }
 
 @media screen and (max-width:1044px) {
   .way__text {
     padding: 40px 50px 60px;
-    max-width: 390px;
+    width: calc(100% - 100%/3);
+  }
+}
+
+@media screen and (max-width:850px) {
+  .way__text {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width:720px) {
+  .way__text {
+    width: 100%;
+
   }
 }

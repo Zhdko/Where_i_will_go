@@ -3,6 +3,7 @@
   justify-content: space-between;
   width: 82.3%;
   align-items: center;
+  position: relative;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,13 +16,7 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    flex-direction: column;
-    gap: 40px;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  .intro {
-    gap: 20px;
+    justify-content: center;
+    color: white;
   }
 }

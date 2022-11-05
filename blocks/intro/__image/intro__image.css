@@ -6,6 +6,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+  z-index: -2;
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,5 +22,15 @@
     width: 100%;
     padding-top: 60%;
     background-position: top;
+  }
+  .intro__image:after {
+    content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
   }
 }

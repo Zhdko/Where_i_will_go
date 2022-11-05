@@ -1,7 +1,24 @@
 .way {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
   background-color: #f2f2f2;
+}
+@media screen and (max-width: 1044px){
+  .way:nth-child(2n) {
+    background-color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .way{
+    flex-direction: column;
+  }
+  .way:nth-child(2n) {
+    flex-direction: column-reverse;
+    background-color: #f2f2f2;
+    text-align: right;
+  }
 }
 
