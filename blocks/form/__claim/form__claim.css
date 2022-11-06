@@ -1,0 +1,17 @@
+.form__claim {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #f1f1f1;
+  padding: 30px 45px;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+}
+
+@media screen and (max-width: 500px) {
+  .form__claim {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+}

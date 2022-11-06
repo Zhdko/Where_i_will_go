@@ -24,7 +24,7 @@
     height: calc(50vw * 0.9);
   }
   .way:hover .way__image {
-    height: calc(70vw);
+    height: calc(80vw);
   }
 }
 

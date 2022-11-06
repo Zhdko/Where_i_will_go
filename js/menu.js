@@ -5,3 +5,10 @@ $(document).ready(function() {
         $('body').toggleClass('fixed-page');
 	});
 });
+
+$(document).ready(function() {
+	$('.claim-link').click(function(){
+        $('.form').toggleClass('form_active');
+        $('.page').toggleClass('page__shadow');
+	});
+});

@@ -11,15 +11,30 @@
     <header class="header header__container">
       <nav class="header__navigation">
         <ul class="list header__menu">
-          <li class=""><a href="#" class="link header__link" target="_blank">Мечты</a></li>
-          <li class=""><a href="#" class="link header__link" target="_blank">Ожидания</a></li>
-          <li class=""><a href="#" class="link header__link" target="_blank">Реальность</a></li>
+          <li class=""><a href="#" class="link header__link">Мечты</a></li>
+          <li class=""><a href="#" class="link header__link">Ожидания</a></li>
+          <li class=""><a href="#" class="link header__link">Реальность</a></li>
         </ul>
       </nav>
       <div class="menu-burger">
         <span></span>
       </div>
-      <a href="#" class="link header__link" target="_blank">Пожаловаться</a>
+      <p class="header__link claim-link">Пожаловаться</p>
+      <form class="form" autocomplete="off" action='email.php' method='post'>
+        <fieldset class="form__claim">
+          <div class="input">
+            <label for="name">Имя</label>
+            <input class=' form__input' type='text' name='username' required id="name" placeholder="Ivan Ivanov"></div>
+          <div class="input">
+            <label for="email">Email</label>
+            <input class='form__input' type='email' name='useremail' required id="email" placeholder="your.email@email.com"></div>
+          <div class="input">
+            <label for="claim__button">Комментарий</label>
+            <textarea type='text' name='claim' placeholder="Мне вот это вот все ваше не нравится..." class='form__input'></textarea>
+          </div>
+          <input class="button" type='submit' value='Пожаловаться' id="claim__button">
+        </fieldset>
+      </form>
     </header>
     <main class="content content__main">
       <section class="intro intro__container">

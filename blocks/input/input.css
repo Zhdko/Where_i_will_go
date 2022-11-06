@@ -1,0 +1,7 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  font-family: "BasisGrotesqueMonoPro", Arial, sans-serif;
+  font-size: 18px;
+  gap: 10px;
+}

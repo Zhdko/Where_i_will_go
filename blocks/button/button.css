@@ -1,0 +1,19 @@
+.button {
+  border: none;
+  background-color: black;
+  color: #ffffff;
+  padding: 15px 40px;
+  border-radius: 8px;
+  align-self: center;
+  font-family: "BasisGrotesqueMonoPro", Arial, sans-serif;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  opacity: 0.8
+}
+
+.button:active {
+  background-color: #FECDA7;
+}
