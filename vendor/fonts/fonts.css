@@ -1,36 +1,21 @@
 @font-face {
-  font-family: "Inter";
-  src: url(../fonts/Inter-Regular.ttf) format("true-type");
-  font-weight:400;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url(../fonts/Inter-Black.ttf) format("true-type");
-  font-weight:900;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url(../fonts/Inter-Bold.ttf) format("true-type");
-  font-weight:700;
-}
-
-@font-face {
   font-family: "Roboto";
-  src: url(../fonts/Roboto-Regular.ttf) format("true-type");
+  src: url(../fonts/roboto-regular-webfont.woff) format("woff");
+  src: url(../fonts/roboto-bold-webfont.woff2) format("woff2");
   font-weight:400;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(../fonts/Inter-Bold.ttf) format("true-type");
+  src: url(../fonts/roboto-bold-webfont.woff) format("woff");
+  src: url(../fonts/roboto-bold-webfont.woff2) format("woff2");
   font-weight:700;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(../fonts/Inter-Black.ttf) format("true-type");
+  src: url(../fonts/roboto-black-webfont.woff) format("woff");
+  src: url(../fonts/roboto-black-webfont.woff2) format("woff2");
   font-weight:900;
 }
 

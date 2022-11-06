@@ -13,15 +13,16 @@
   }
 }
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width:1900px) {
   .way__text {
-    padding: 40px 50px 60px;
+    padding: 60px 70px 80px;
     gap: 30px;
   }
 }
 
 @media screen and (max-width:1280px) {
   .way__text {
+    padding: 40px 50px 60px;
     gap: 19px;
   }
 }
