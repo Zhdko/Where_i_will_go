@@ -19,4 +19,11 @@
   font-weight:900;
 }
 
+@font-face {
+  font-family: "BasisGrotesqueMonoPro";
+  src: url(../fonts/BasisGrotesqueMonoPro-Bold.woff) format("woff");
+  src: url(../fonts/BasisGrotesqueMonoPro-Bold.woff2) format("woff2");
+  font-weight:900;
+}
+
 
