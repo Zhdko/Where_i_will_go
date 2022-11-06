@@ -1,28 +1,28 @@
 @font-face {
   font-family: "Roboto";
-  src: url(../fonts/roboto-regular-webfont.woff) format("woff");
-  src: url(../fonts/roboto-bold-webfont.woff2) format("woff2");
+  src: url(../fonts/Roboto/roboto-regular-webfont.woff) format("woff");
+  src: url(../fonts/Roboto/roboto-bold-webfont.woff2) format("woff2");
   font-weight:400;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(../fonts/roboto-bold-webfont.woff) format("woff");
-  src: url(../fonts/roboto-bold-webfont.woff2) format("woff2");
+  src: url(../fonts/Roboto/roboto-bold-webfont.woff) format("woff");
+  src: url(../fonts/Roboto/roboto-bold-webfont.woff2) format("woff2");
   font-weight:700;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(../fonts/roboto-black-webfont.woff) format("woff");
-  src: url(../fonts/roboto-black-webfont.woff2) format("woff2");
+  src: url(../fonts/Roboto/roboto-black-webfont.woff) format("woff");
+  src: url(../fonts/Roboto/roboto-black-webfont.woff2) format("woff2");
   font-weight:900;
 }
 
 @font-face {
   font-family: "BasisGrotesqueMonoPro";
-  src: url(../fonts/BasisGrotesqueMonoPro-Bold.woff) format("woff");
-  src: url(../fonts/BasisGrotesqueMonoPro-Bold.woff2) format("woff2");
+  src: url(../fonts/BasisGrotesqueMonoPro/BasisGrotesqueMonoPro-Bold.woff) format("woff");
+  src: url(../fonts/BasisGrotesqueMonoPro/BasisGrotesqueMonoPro-Bold.woff2) format("woff2");
   font-weight:900;
 }
 
