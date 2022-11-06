@@ -1,5 +1,12 @@
 .way__paragraph{
   width: 100%;
+  transition: all 1s ease;
+}
+
+@media screen and (min-width: 700px) {
+  .way:hover .way__paragraph {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 1280px) {

@@ -8,3 +8,5 @@ const scroll = new IntersectionObserver(entries => {
 scroll.observe(document.querySelector('.forest'));
 scroll.observe(document.querySelector('.sea'));
 scroll.observe(document.querySelector('.mountains'));
+scroll.observe(document.querySelector('.people'));
+scroll.observe(document.querySelector('.intro'));
