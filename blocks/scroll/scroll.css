@@ -1,14 +1,14 @@
 @keyframes scroll {
   0% {
     transform: translate(0,100px);
-    opacity: 0;
   }
   50% {
     transform: translate(0, 0);
     opacity: 1;
   }
 }
-
+@media screen and (max-width: 720px){
 .scroll {
-  animation: scroll 1.5s 1;
+  animation: scroll 2s 1;
+}
 }
