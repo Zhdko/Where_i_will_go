@@ -31,6 +31,7 @@
 @import url(../blocks/ways/ways.css);
 @import url(../blocks/way/way.css);
 @import url(../blocks/way/__image/way__image.css);
+@import url(../blocks/scroll/scroll.css);
 @import url(../blocks/way/__text/way__text.css);
 @import url(../blocks/way/__title/way__title.css);
 @import url(../blocks/paragraph/paragraph.css);
